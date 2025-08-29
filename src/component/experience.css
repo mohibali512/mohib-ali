@@ -1,0 +1,32 @@
+body {
+    background-color: #d2d5d7;
+    color: white;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .journey-card {
+    border: 1px solid #00bfff;
+    border-radius: 10px;
+    background-color: #031e2d;
+    color: white;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .journey-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 0px 20px 5px rgba(0, 191, 255, 0.7);
+  }
+  
+  .card-title {
+    color: #00bfff;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #cfd8dc;
+  }
+  

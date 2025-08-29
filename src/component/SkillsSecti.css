@@ -1,0 +1,216 @@
+/* .skills-section {
+    background-color: #2c2f33;
+    color: #fff;
+    margin: 65px;
+    border-radius:10px ;
+  }
+  
+  .skill-card {
+    background-color: #40444b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .animate__fadeInUp {
+    opacity: 0;
+  }
+  
+  .animate__fadeInUp {
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @media (max-width: 768px) {
+    .skill-card {
+      padding: 15px;
+    }
+    .skill-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .skill-name {
+      font-size: 1rem;
+    }
+  } */
+  /* .skills-section {
+    background-color: #2c2f33;
+    color: #fff;
+  }
+  
+  .skill-card {
+    background-color: #40444b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .animate__fadeInDown {
+    opacity: 0;
+  }
+  
+  .animate__fadeInUp {
+    opacity: 0;
+  }
+  
+  .animate__fadeInDown {
+    animation: fadeInDown 1s ease-in-out forwards;
+  }
+  
+  .animate__fadeInUp {
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  .animate__bounce {
+    animation: bounce 0.5s ease;
+  }
+  
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+  }
+  
+  @media (max-width: 768px) {
+    .skill-card {
+      padding: 15px;
+    }
+    .skill-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .skill-name {
+      font-size: 1rem;
+    }
+  } */
+  .skills-section {
+    background-color: #2c2f33;
+    color: #fff;
+    margin: 65px;
+    border-radius: 10px;
+  }
+  
+  .skill-card {
+    background-color: #40444b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-card.active {
+    background-color: #f4a261; /* Changed color on click */
+  }
+  
+  .skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .animate__fadeInDown {
+    opacity: 0;
+  }
+  
+  .animate__fadeInUp {
+    opacity: 0;
+  }
+  
+  .animate__fadeInDown {
+    animation: fadeInDown 1s ease-in-out forwards;
+  }
+  
+  .animate__fadeInUp {
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  .animate__bounce {
+    animation: bounce 0.5s ease;
+  }
+  
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+  }
+  
+  @media (max-width: 768px) {
+    .skill-card {
+      padding: 15px;
+    }
+    .skill-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .skill-name {
+      font-size: 1rem;
+    }
+  }

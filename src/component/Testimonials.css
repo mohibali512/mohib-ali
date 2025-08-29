@@ -1,0 +1,21 @@
+/* .testimonials-section {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 255, 0, 0.2);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .text-green-500 {
+    color: #00ff00;
+  } */
